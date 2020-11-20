@@ -1,0 +1,346 @@
+/* les liens des fonts */
+@import url('https:/</fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+/* J'ajoute le code css pour mon header, que je vais mettre sur tous les fichiers html */
+    /* Debut nouveau code */
+    header nav {
+        display:flex;
+        flex-direction: row;
+        margin-left: 10vw;
+        
+    }
+    
+    header nav#first_nav {
+        border-bottom: 1px solid black;
+    }
+    
+    header nav ul {
+        display:flex;
+        flex-direction: row;
+    }
+    header nav ul li {
+      list-style-type: none;
+    }
+    
+    header nav li a{
+        justify-content: space-evenly;
+        
+    }
+    
+    header nav#first_nav ul#simplon_nav {
+        margin-right: 25vw;
+    }
+    
+    header nav#first_nav ul#simplon_nav li a {
+        padding:10px;
+    }
+    
+    header nav#first_nav ul#languages li a,header nav ul#social_networks li a {
+        padding:5px;
+    }
+    
+    header nav#first_nav ul#simplon_nav a {
+        color:#57575c;
+        font-size: 12px;
+    }
+    
+    header nav#first_nav ul#simplon_nav a:hover {
+        color:#ce0033
+    }
+    
+    header nav#first_nav ul#languages a {
+        text-decoration: underline;
+    }
+    
+    header nav#second_nav ul li a {
+        padding:5vh 0vw 0vh 2vw;
+        
+    }
+    
+    header nav#second_nav ul li a img {
+        width:10vw;
+        margin-right: 35vw;
+    }
+    /* Fin nouveau code */
+
+/* la première ligne de navigation */
+.nav-bar-ligne1 {
+    display: flex;  /* positioner les elements horizontal */
+    justify-content: space-between; /* mettre l'espace entre les elements  */
+    align-content: center;
+    border-bottom:1px solid #57575c;
+    
+}
+.nav-bar-right-top {
+    display: flex;   
+    justify-content: space-around; /* mettre l'espace autour les elements  */
+    width: 40%;
+    padding: 0px;
+    margin-bottom: 0px;
+
+}
+.nav-bar-right-top a {
+    text-decoration: none;
+    color: #57575c;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 18px;
+}
+.nav-bar-right-top a:hover {
+    text-decoration: none;
+    color: #ce0033;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 18px;
+}
+.nav-bar-right-top li {
+    list-style: none;
+}
+
+/* le coté gauche */
+.bar-top-left {
+    display: flex;
+    justify-content: center;
+    width: 25%; /* permet de mettre l'espace entre les elements */
+
+}
+/* les langues  */
+.bar-top-left-langues {
+    display: flex;
+    justify-content: space-around;
+    width: 20%; 
+    margin-bottom: 0px;
+}
+.bar-top-left-langues li {
+    list-style: none;
+    font-size: 12px;
+    line-height: 18px;
+}
+/* les icones des reseaux sociaux */
+.bar-top-left-reseaux {
+    display: flex;
+    justify-content: space-between;
+    width: 40%; 
+    margin-bottom: 0px;
+}
+.bar-top-left-reseaux li {
+    list-style: none;   
+}
+.bar-top-left-reseaux a {
+    color: red;
+}
+/* la deuxième ligne de navigation  */
+.nav-bar-ligne2 {
+    display: flex;
+    align-content: end;
+    
+    justify-content: space-between;
+    padding: 20px 0px;
+    
+}
+/* le coté gauche */
+.menu-left {
+    display: flex;
+    justify-content: space-around ;
+    align-content: center;
+    width:30%; 
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.menu-left li {
+    list-style: none;  
+}
+.menu-left a {
+    text-decoration: none ;
+    color: #000;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.menu-left a:hover{
+    text-decoration: none ;
+    color: #ce0033;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight:600;    /* pourquoi ça marche pas  */
+}
+/* logo  */
+.logo  a {
+    display: inline-block;
+    width: 210px;
+    height: 70px;
+    background-image: url(img/logo\ simplon.png);
+    background-size: 100%;
+    background-position: center;
+    text-indent: -9999999px;
+}
+/* donner des marges à bar nav */
+nav {
+    margin-top: 0px;
+    margin-bottom:10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+/* à regler  */
+header{
+    background-image:  url(img/img\ \(11\).jpg);
+    padding:120px 120px;
+    margin: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header h1 {
+    font-size:52px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 50%;   
+}
+/* bar de navigation intern  */
+.nav-bar-intern {
+    margin: 0px 350px;
+    background-color: #ce0033;
+    padding: 3px 30px;
+}
+.list-titres {
+    justify-content: space-around;
+}
+.list-titres ol {
+    color: #ffffff;
+    display: flex;
+    font-size: 16px;
+    text-transform: uppercase;
+    justify-content: space-around;
+     /*flex-direction: row;
+    flex-wrap: wrap;width: auto;
+    height: 20px; */
+}
+ ol div li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+ol div li a:hover {
+    color: #000;
+}
+.nav-bar-intern p {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+/* le contenu de la page  */
+section {
+    margin: 0px 100px;
+}
+article h2 {
+    color: #ce0033;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 300;   
+}
+article p {
+    font-size: 16px;
+    line-height: 24px ;
+    text-align: justify;
+}
+article img{
+margin: 20px 200px;
+}
+
+/* le pied de page  */
+footer {
+    background-color: #ce0033;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 150px;
+    margin: 0px;
+}
+.logoEnBas{
+    display: flex;
+}
+footer img {
+    margin: auto;
+    padding: 40px 0px;
+}
+footer ul li {
+    font-weight: 300;
+    list-style: none;
+    color: #ffffff;
+    font-size: 16px; 
+}
+/* la bar de contact  */
+.contactezNous {
+    padding: 20px 450px ;
+    text-align: center;
+    font-size: 24px;
+}
+.contactezNous p {
+    margin: 10px;
+    color: #ce0033;
+    font-weight: 600;
+}
+.contactezNous a {
+    text-decoration: none ;
+    font-weight: 600;
+    color: white;
+}
+.contactez-nous {
+    background-color: #ce0033;
+    padding: 20px 0px;
+    margin: 0px ;
+}
+
+ /* Debut ajout code pour footer */
+ footer {
+    background-color: var(--hover-color);
+    margin: 0px;
+}
+
+footer img {
+    margin-left: 38vw;
+    margin-top: 5vh;
+}
+
+footer ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin-left: 10vw;
+    
+}
+
+footer ul li  {
+    border-right: 3px solid white;
+    padding-right:1vw;
+    font-size: 12px;
+    padding-bottom: 2vh;
+
+}
+
+footer ul li a {
+    color:white;
+    line-height: 3;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color:white;
+}
+:root {
+    --main-bg-color: #ce0033;
+    --hover-color: #ce0033;
+    --secondary-bg-color:#f1f5f8;
+  }
+  /* Fin ajout code footer */

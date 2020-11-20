@@ -1,0 +1,214 @@
+
+   body
+    {
+    font-family: 'Nunito Sans', sans-serif; 
+    }
+    /* J'ajoute le code css pour mon header, que je vais mettre sur tous les fichiers html */
+    /* Debut nouveau code */
+    header nav {
+        display:flex;
+        flex-direction: row;
+        margin-left: 10vw;
+        
+    }
+    
+    header nav#first_nav {
+        border-bottom: 1px solid black;
+    }
+    
+    header nav ul {
+        display:flex;
+        flex-direction: row;
+    }
+    header nav ul li {
+      list-style-type: none;
+    }
+    
+    header nav li a{
+        justify-content: space-evenly;
+        
+    }
+    
+    header nav#first_nav ul#simplon_nav {
+        margin-right: 25vw;
+    }
+    
+    header nav#first_nav ul#simplon_nav li a {
+        padding:10px;
+    }
+    
+    header nav#first_nav ul#languages li a,header nav ul#social_networks li a {
+        padding:5px;
+    }
+    
+    header nav#first_nav ul#simplon_nav a {
+        color:#57575c;
+        font-size: 12px;
+    }
+    
+    header nav#first_nav ul#simplon_nav a:hover {
+        color:#ce0033
+    }
+    
+    header nav#first_nav ul#languages a {
+        text-decoration: underline;
+    }
+    
+    header nav#second_nav ul li a {
+        padding:5vh 0vw 0vh 2vw;
+        
+    }
+    
+    header nav#second_nav ul li a img {
+        width:10vw;
+        margin-right: 35vw;
+    }
+    /* Fin nouveau code */
+
+
+    /* Amina, j'ai modifie le header en section avec une classe section-zero */
+    section.zero-section img {
+        height: 100%;
+        width: 100%;
+        padding:0px 0px;
+        margin: 0px;
+        background-size: 100%;
+    } 
+
+    h1 {
+        position: absolute;
+        font-size: 65px;
+        text-align: center;
+        margin-top: 350px;
+        margin-left:120px;
+        color: white;
+    }
+
+    .paragraphe {
+        position: absolute;
+        background-color: #ce0033;
+        font-size: 52px;
+        margin-top: 40%;
+        margin-left: 60px;
+        margin-right: 60px;
+        text-align: center;
+        padding: 15px;
+        color : white;
+        border : 1px solid white;
+        opacity: 75%;
+    }
+
+    section.zero-section a {
+        position : absolute;
+        text-align: center;
+        font-size: 52px;
+        text-decoration: none;
+        color: #ce0033;
+        margin-top: 740px; 
+        margin-left : 280px; 
+        margin-right : 180px;
+        background-color: white;
+        padding: 20px;
+
+    }
+
+    .first-section {
+        margin-top: 50px;
+        display : flex; 
+    }
+
+    .first-section h2{
+        text-align: center;
+        font-size: 40px;
+        background-color : #7c545a;
+        color : white; 
+        padding-top: 13%;
+        margin: 0;
+        display: table-cell;
+        vertical-align: text-bottom;
+    }
+
+    .program-languages {
+        position : absolute;
+        margin-top: 50px;
+        margin-right: 50%;
+        text-align: center;
+        font-size: 35px;
+        background-color: #ce0033;
+        margin-top: 50px;
+        color: white;
+     
+    }
+    .second-section img {
+        position : absolute;
+        display: flex;  
+        margin-left: 50%;
+        margin-right : 0; }
+
+    h2{
+        animation-duration: 5s;
+        animation-delay: 0s;
+        animation-direction: alternate;
+        animation-name: initial;
+        animation-iteration-count:1;
+    }
+
+    @keyframes initial { 
+        from{
+            margin-left:100%;
+            width: 300%;
+            opacity: 0;
+        }
+        to {
+            margin-left :0%;
+            width: 100%;
+            opacity: 1;
+        }
+    }
+
+
+   
+
+    /* Debut ajout code pour footer */
+    footer {
+      background-color: var(--hover-color);
+      margin: 0px;
+  }
+  
+  footer img {
+      margin-left: 38vw;
+      margin-top: 120vh;
+  }
+  
+  footer ul {
+      display:flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 80vw;
+      margin-left: 10vw;
+      
+  }
+  
+  footer ul li  {
+      border-right: 3px solid white;
+      padding-right:1vw;
+      font-size: 12px;
+      padding-bottom: 2vh;
+  
+  }
+  
+  footer ul li a {
+      color:white;
+      line-height: 3;
+  }
+  
+  footer ul li a:hover {
+      text-decoration: underline;
+      color:white;
+  }
+  :root {
+      --main-bg-color: #ce0033;
+      --hover-color: #ce0033;
+      --secondary-bg-color:#f1f5f8;
+    }
+    /* Fin ajout code footer */

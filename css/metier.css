@@ -1,0 +1,140 @@
+section {
+    background-color:black;
+}
+
+body{
+font-family: 'Open sans' sans-serif    
+
+}
+
+/* J'ajoute le code css pour mon header, que je vais mettre sur tous les fichiers html */
+    /* Debut nouveau code */
+    header nav {
+        display:flex;
+        flex-direction: row;
+        margin-left: 10vw;
+        
+    }
+    
+    header nav#first_nav {
+        border-bottom: 1px solid black;
+    }
+    
+    header nav ul {
+        display:flex;
+        flex-direction: row;
+    }
+    header nav ul li {
+      list-style-type: none;
+    }
+    
+    header nav li a{
+        justify-content: space-evenly;
+        
+    }
+    
+    header nav#first_nav ul#simplon_nav {
+        margin-right: 25vw;
+    }
+    
+    header nav#first_nav ul#simplon_nav li a {
+        padding:10px;
+    }
+    
+    header nav#first_nav ul#languages li a,header nav ul#social_networks li a {
+        padding:5px;
+    }
+    
+    header nav#first_nav ul#simplon_nav a {
+        color:#57575c;
+        font-size: 12px;
+    }
+    
+    header nav#first_nav ul#simplon_nav a:hover {
+        color:#ce0033
+    }
+    
+    header nav#first_nav ul#languages a {
+        text-decoration: underline;
+    }
+    
+    header nav#second_nav ul li a {
+        padding:5vh 0vw 0vh 2vw;
+        
+    }
+    
+    header nav#second_nav ul li a img {
+        width:10vw;
+        margin-right: 35vw;
+    }
+    /* Fin nouveau code */
+    
+table .premier{
+
+    border: solid red 2px;
+    border-collapse: collapse;
+     text-align: center 
+}
+
+
+thead{
+    background-color: red; 
+    color: white;
+    text-align: center
+}
+
+.paire{
+
+    background-color: black;
+    text-align: center
+
+
+table .deuxieme{
+
+
+
+} 
+
+/* Debut ajout code pour footer */
+footer {
+    background-color: var(--hover-color);
+    margin: 0px;
+}
+
+footer img {
+    margin-left: 38vw;
+    margin-top: 5vh;
+}
+
+footer ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin-left: 10vw;
+    
+}
+
+footer ul li  {
+    border-right: 3px solid white;
+    padding-right:1vw;
+    font-size: 12px;
+    padding-bottom: 2vh;
+
+}
+
+footer ul li a {
+    color:white;
+    line-height: 3;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color:white;
+}
+:root {
+    --main-bg-color: #ce0033;
+    --hover-color: #ce0033;
+    --secondary-bg-color:#f1f5f8;
+  }
+  /* Fin ajout code footer */

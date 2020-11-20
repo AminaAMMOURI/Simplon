@@ -1,0 +1,303 @@
+body {
+    padding:0px;
+    margin: 0px;
+    background-color:white;
+}
+
+a {
+    color:black;
+    font-family: 'Nunito Sans Regular';
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover {
+    color:var(--hover-color)
+}
+
+li  {
+    list-style-type: none;
+}
+
+header nav {
+    display:flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    
+}
+
+header nav#first_nav {
+    border-bottom: 1px solid black;
+}
+
+header nav ul {
+    display:flex;
+    flex-direction: row;
+}
+
+header nav li a{
+    justify-content: space-evenly;
+    
+}
+
+header nav#first_nav ul#simplon_nav {
+    margin-right: 25vw;
+}
+
+header nav#first_nav ul#simplon_nav li a {
+    padding:10px;
+}
+
+header nav#first_nav ul#languages li a,header nav ul#social_networks li a {
+    padding:5px;
+}
+
+header nav#first_nav ul#simplon_nav a {
+    color:#57575c;
+    font-size: 12px;
+}
+
+header nav#first_nav ul#simplon_nav a:hover {
+    color:#ce0033
+}
+
+header nav#first_nav ul#languages a {
+    text-decoration: underline;
+}
+
+header nav#second_nav ul li a {
+    padding:5vh 0vw 0vh 2vw;
+    
+}
+
+header nav#second_nav ul li a img {
+    width:10vw;
+    margin-right: 35vw;
+}
+
+main div img {
+    width: 100vw;
+}
+
+main div {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+main div#title h1 {
+    /* position: absolute;
+    left:45%;
+    font-weight: lighter;
+    text-transform: uppercase;
+    line-height: 65px;
+    width:60vw;
+    text-align: left;
+    font-family: 'Nunito Sans',sans-serif;
+    font-size: 52px; */
+}
+
+div, section {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section#presentation {
+    background-color: var(--main-bg-color);
+    color:white;
+    display: flex;
+    flex-direction: row;
+}
+
+section#presentation div,section#presentation img {
+    width:50vw;
+}
+
+main section#presentation div h1 {
+    font-size: 52px; 
+    padding-top: 8vh;
+    
+}
+
+section#presentation div p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 2rem;
+    width:40vw;
+    margin-left: 5vw;
+} 
+
+main section#formation {
+    background-color: #F1F5F8;
+}
+
+main section#formation h1 {
+    font-size: 52px;
+    text-align: center;
+}
+
+main section#formation ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main section#formation ul li span {
+    font-size: 52px;
+    color:var(--main-bg-color);
+    width: 8vw;
+    display: block;
+    text-align:center ;
+}
+main section#formation ul li {
+    font-size: 16px;
+    display: block;
+    width:10vw;
+}
+
+main section#programme {
+    background-color: #ce0033;
+    display: flex;
+    flex-direction: row;
+}
+main section#programme h1 {
+    font-size: 52px; 
+}
+
+section#programme div,section#programme img {
+    width:50vw;
+}
+
+section#programme ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-left: 15vw;
+    line-height: 3rem;
+    font-size: 16px;
+}
+main section#temoignage {
+    background-color: #F1F5F8;
+}
+
+main section#temoignage h1 {
+    font-size: 52px;
+    text-align: center;
+}
+main#contact_form {
+    background-color: #D03B33;
+    color:white;
+    width: 100%;
+    height: 100vh;
+
+}
+#contact_form form h1 {
+    text-align: center;
+    font-size: 64px;
+}
+
+#contact_form form  {
+    width: 50vw;
+}
+form div {
+    text-align: left;
+    margin-left: 5vw;
+    width:40vw;
+    margin-bottom:5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact_form form div label {
+    font-size: 36px;
+    
+}
+
+#contact_form form div input {
+    margin-left: 5vw;
+}
+
+main section#temoignage div {
+    display: flex;
+    flex-direction: row;
+    width:80vw;
+}
+
+main section#temoignage div img {
+    margin-left: 10vw;
+    margin-right: 5vw;
+    height:30vh;
+}
+main section#temoignage div p {
+    font-size: 16px;
+    color: black;
+    height:30vh;
+    line-height: 2.5rem;
+    font-style: italic;
+
+}
+main section#call_to_action h1 {
+    text-align: center;
+    font-size: 42px;
+    color: var(--hover-color);
+    
+}
+
+main section#call_to_action a {
+    color:white;
+    background-color: var(--hover-color);
+    font-size: 42px;
+    width:30vw;
+    margin-left: 35vw;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10vh;
+}
+
+main section#call_to_action a:hover {
+    color:var(--hover-color);
+    background-color:white;
+}
+footer {
+    background-color: var(--hover-color);
+    margin: 0px;
+}
+
+footer img {
+    margin-left: 38vw;
+    margin-top: 5vh;
+}
+
+footer ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin-left: 10vw;
+    
+}
+
+footer ul li  {
+    border-right: 3px solid white;
+    padding-right:1vw;
+    font-size: 12px;
+    padding-bottom: 2vh;
+
+}
+
+footer ul li a {
+    color:white;
+    line-height: 3;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color:white;
+}
+:root {
+    --main-bg-color: #ce0033;
+    --hover-color: #ce0033;
+    --secondary-bg-color:#f1f5f8;
+  }
